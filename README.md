@@ -90,7 +90,7 @@ pip install psutil gputil PyQt5 PyQtWebEngine pynput
 |---|---|
 | `SNAKE` | Classic Snake — arrow keys to move |
 | `TETRIS` | Tetris — arrows + space to rotate |
-| `MINESWEEPER` | Minesweeper — enter coordinates |
+| `MINESWEEPER` | Minesweeper — enter coordinates (homeless edition*) |
 | `TICTACTOE` | Tic Tac Toe vs AI (multiplayer maybe coming soon)|
 | `RPS` | Rock Paper Scissors vs AI (multiplayer maybe coming soon)|
 | `BLACKJACK` | Blackjack vs AI Dealer (multiplayer maybe coming soon)|
@@ -106,3 +106,5 @@ Licensed under the **Apache License 2.0**.
 See [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 Copyright © 2026 SoWhatevering
+
+*note, i have nothing to homeless people, leave me alone
