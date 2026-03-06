@@ -119,4 +119,4 @@ python PYTHON_OS_PY_EDITION_v2.py
 Licensed under the **Apache License 2.0**. 
 See [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-Copyright © 2026 Whatevering
+Copyright © 2026 SoWhatevering
