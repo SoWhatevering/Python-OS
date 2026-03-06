@@ -34,7 +34,6 @@
 - [Installation](#-installation)
 - [Commands](#-commands)
 - [Games](#-games)
-- [Screenshots](#-screenshots)
 - [License](#-license)
 
 ---
@@ -42,13 +41,13 @@
 ## Features
 
 - **MS-DOS style shell** with a familiar command-line interface
-- **Graphical web browser** powered by Chromium (PyQt5 + QWebEngine)
+- **Graphical web browser** powered by Chromium
 - **Weather forecast** via wttr.in
 - **Notepad** — text editor that saves files to the `files/` folder
 - **Task Manager** — CPU, RAM, and GPU usage with ASCII progress bars
 - **6 built-in games** — Snake, Tetris, Minesweeper, Blackjack, Maze, Tic Tac Toe, Rock Paper Scissors
-- **Safe calculator** — uses AST parsing instead of `eval()`
-- ⌨ **Typing speed test**
+- **Calculator** — normal calculator
+- **Typing speed test** — well, its just speed test, dont forget about a period!
 - **File manager** — view, read, and delete files
 
 ---
@@ -57,20 +56,8 @@
 
 **Required:**
 ```
-pip install pynput
+pip install psutil gputil PyQt5 PyQtWebEngine pynput
 ```
-
-**Optional (for full features):**
-```
-pip install psutil gputil PyQt5 PyQtWebEngine
-```
-
-| Library | Used for |
-|---|---|
-| `pynput` | Keyboard input for Snake, Tetris, Maze |
-| `psutil` | CPU & RAM usage in TASKMGR |
-| `gputil` | GPU usage in TASKMGR |
-| `PyQt5` + `PyQtWebEngine` | Graphical browser (BROWSER command) |
 
 ---
 
@@ -105,7 +92,7 @@ python PYTHON_OS_PY_EDITION_v2.py
 | `TASKMGR` | Show CPU, RAM and GPU usage |
 | `WEATHER [city]` | Show 3-day weather forecast |
 | `BROWSER` | Open graphical web browser |
-| `GITHUB` | Open GitHub |
+| `GITHUB` | Open GitHub's main page |
 | `MYGITHUB` | Open author's GitHub |
 | `EXIT` | Exit PythonOS |
 
@@ -120,29 +107,16 @@ python PYTHON_OS_PY_EDITION_v2.py
 | `MINESWEEPER` | Minesweeper — enter coordinates |
 | `TICTACTOE` | Tic Tac Toe vs AI |
 | `RPS` | Rock Paper Scissors vs AI |
-| `BLACKJACK` | Blackjack vs AI Dealer |
+| `BLACKJACK` | Blackjack vs AI Dealer (multiplayer maybe coming soon)|
 | `MAZE` | Randomly generated maze — arrow keys |
 | `TYPETEST` | Typing speed test (WPM) |
 
 ---
 
-## File Structure
-
-```
-PythonOS/
-PYTHON_OS_PY_EDITION_v2.py # Main script
-README.md
-files/ # User files (create manually!)
-your_notes.txt
-```
-
----
 
 ## License
 
 Licensed under the **Apache License 2.0**. 
 See [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-Copyright © 2025 Whatevering
-
----
+Copyright © 2026 Whatevering
