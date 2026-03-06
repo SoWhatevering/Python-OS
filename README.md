@@ -54,7 +54,7 @@
 
 ## Requirements
 
-**Required:**
+**Required:** (only for .py edition)
 ```
 pip install psutil gputil PyQt5 PyQtWebEngine pynput
 ```
