@@ -31,7 +31,6 @@
 ## Table of Contents
 - [Features](#-features)
 - [Requirements](#-requirements)
-- [Installation](#-installation)
 - [Commands](#-commands)
 - [Games](#-games)
 - [License](#-license)
@@ -58,19 +57,6 @@
 ```
 pip install psutil gputil PyQt5 PyQtWebEngine pynput
 ```
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/sowhatevering/PythonOS
-cd PythonOS
-pip install pynput psutil gputil PyQt5 PyQtWebEngine
-python PYTHON_OS_PY_EDITION_v2.py
-```
-
-> Before using **NOTEPAD**, **TYPE**, **DEL** or **DIR**, create a folder named `files` in the same directory as the script.
 
 ---
 
