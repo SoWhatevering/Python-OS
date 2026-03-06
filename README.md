@@ -91,8 +91,8 @@ pip install psutil gputil PyQt5 PyQtWebEngine pynput
 | `SNAKE` | Classic Snake — arrow keys to move |
 | `TETRIS` | Tetris — arrows + space to rotate |
 | `MINESWEEPER` | Minesweeper — enter coordinates |
-| `TICTACTOE` | Tic Tac Toe vs AI |
-| `RPS` | Rock Paper Scissors vs AI |
+| `TICTACTOE` | Tic Tac Toe vs AI (multiplayer maybe coming soon)|
+| `RPS` | Rock Paper Scissors vs AI (multiplayer maybe coming soon)|
 | `BLACKJACK` | Blackjack vs AI Dealer (multiplayer maybe coming soon)|
 | `MAZE` | Randomly generated maze — arrow keys |
 | `TYPETEST` | Typing speed test (WPM) |
